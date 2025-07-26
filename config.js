@@ -21,7 +21,7 @@ module.exports = {
     ALIVE_MSG: process.env.ALIVE_MSG || "Hey there! MULAA XMD is online and ready to assist.", // Customized message
     
     // Owner's WhatsApp number (used for owner-only commands)
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "2347032411938", // Your default owner number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "26776660902", // Your default owner number
     
     // Bot operation mode: "public" allows all users, "private" restricts to owner/admins
     MODE: process.env.MODE || "public", // Consider setting to "public" or "private" based on your needs
