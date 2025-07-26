@@ -1,12 +1,12 @@
 {
-  "name": "maria-md",
+  "name": "mulaa-xmd",
   "version": "1.0.0",
-  "description": "A WhatsApp bot created using Node.js",
+  "description": "MULAA XMD: A professional WhatsApp bot built with Node.js for enhanced automation.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name maria-md",
-    "stop": "pm2 stop maria-md",
-    "restart": "pm2 restart maria-md"
+    "start": "pm2 start index.js --deep-monitoring --attach --name mulaa-xmd",
+    "stop": "pm2 stop mulaa-xmd",
+    "restart": "pm2 restart mulaa-xmd"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:gifted-baileys",
