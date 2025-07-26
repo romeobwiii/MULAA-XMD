@@ -1,37 +1,53 @@
 {
-  "name": "maria-md",
-  "description": "multi device Whatsapp bot",
-  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
-  "keywords": ["bot"],
+  "name": "mulaa-xmd",
+  "description": "MULAA XMD: A professional multi-device WhatsApp bot for advanced automation and engagement.",
+  "logo": "YOUR_MULAA_XMD_LOGO_URL_HERE",
+  "keywords": ["whatsapp", "bot", "mulaa-xmd", "automation", "multi-device", "nodejs"],
   "success_url": "/",
 
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "The session ID for your Baileys WhatsApp connection. Essential for authentication.",
       "required": true
-    },  
+    },    
 
     "ALIVE_IMG": {
-      "description": "Put your alive img here.",
-      "required": true
+      "description": "URL to an image to be sent with the bot's 'alive' message.",
+      "required": false // Changed to false, as an image might not always be required for an alive message
     },
     
     "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
-      "required": true
-    }
+      "description": "The custom message for when the bot responds to an 'alive' command.",
+      "required": false // Changed to false, as a default message might suffice if not provided
+    },
 
     "AUTO_READ_STATUS": {
-
-      "description": "make it true if you want bot to view status.",
+      "description": "Set to 'true' if you want the bot to automatically view WhatsApp statuses. Default is 'false'.",
+      "required": false // Changed to false, typically not a 'required' env var but a configurable option
+    },
+    
+    "PREFIX": {
+      "description": "The command prefix for your bot (e.g., '.', '!', '/', '#').",
       "required": true
+    },
+    "OWNER_NAME": {
+      "description": "The name of the bot's owner, displayed in various messages.",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "The display name of the bot, if different from 'mulaa-xmd'.",
+      "required": false
+    },
+    "TIME_ZONE": {
+      "description": "The IANA timezone for date/time calculations (e.g., 'Africa/Gaborone', 'America/New_York').",
+      "required": false
     }
-},
+  },
 
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "stack": "heroku-24"
 }
