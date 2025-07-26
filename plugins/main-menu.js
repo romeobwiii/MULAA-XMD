@@ -48,16 +48,19 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
         });
         
         
- //fake status and quoted.       
-const voltage = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: {
+//fake status and quoted.  
+// Changed from "voltage" to a name more fitting for MULAA XMD if this is meant to be a bot identity, or remove if not needed.
+// This part is for creating a fake "quoted" message with a specific name for branding.
+const mullaXMDStatus = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: {
 newsletterAdminInviteMessage: {
-newsletterJid: '120363292215098632@newsletter',
-    newsletterName: '⏤͟͟͞͞☆ᴠᴏʟᴛ⃝🜲ᴀɢᴇ☆ ͟͞͞⏤',
-    caption: 'ᴠᴏʟᴛᴀɢᴇ ʟᴏʀᴅ ᴅᴇᴠ\nsᴘᴀʀᴋ ᴍᴅ'}}}
-    
+newsletterJid: '120363292215098632@newsletter', // You might want to keep this or change if you have a specific newsletter JID
+    newsletterName: '⏤͟͟͞͞★𝐌𝐔𝐋𝐀𝐀-𝐗𝐌𝐃★ ͟͞͞⏤', // Replaced Voltage name with MULAA XMD
+    caption: '𝐌𝐔𝐋𝐀𝐀-𝐗𝐌𝐃 𝐁𝐨𝐭 𝐃𝐞𝐯\n𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐌𝐔𝐋𝐀𝐀' // Customized caption for your bot
+}}}
+        
         // Date and time configuration
         const dateOptions = {
-            timeZone: 'Africa/Lagos',
+            timeZone: 'Africa/Lagos', // Change this to your desired timezone (e.g., 'America/New_York', 'Asia/Kolkata', 'Europe/London')
             weekday: 'long',
             year: 'numeric',
             month: 'long',
@@ -65,7 +68,7 @@ newsletterJid: '120363292215098632@newsletter',
         };
 
         const timeOptions = {
-            timeZone: 'Africa/Lagos',
+            timeZone: 'Africa/Lagos', // Change this to your desired timezone
             hour: '2-digit',
             minute: '2-digit',
             second: '2-digit',
@@ -84,17 +87,17 @@ newsletterJid: '120363292215098632@newsletter',
         
         // Build menu sections
         let madeMenu = 
-            `╭───〔 🌸 *𝙼𝙰𝚁𝙸𝙰-𝙼𝙳* 🌸 〕───⬣
-│ *Dᴀᴛᴇ:* ${date}
-│ *Tɪᴍᴇ:* ${time}
-│ *Uᴘᴛɪᴍᴇ:* ${days}d ${hours}h ${minutes}m ${seconds}s
-│ *Oᴡɴᴇʀ:* Iᴛs Hɪᴍ Aʙʙʏ
-│ *Rᴀᴍ:* ${(os.totalmem() - os.freemem()) / 1024 / 1024} MB / ${os.totalmem() / 1024 / 1024} MB
-│ *Pʟᴜɢɪɴs:* ${commands.length}
-│ *Usᴇʀ:* ${pushname}
-│ *Pʀᴇғɪx:* ${config.PREFIX}
-│ *Mᴏᴅᴇ:* ${config.MODE}
-╰──────────────\n`;
+            `╭───〔 💡 *𝐌𝐔𝐋𝐀𝐀-𝐗𝐌𝐃* 💡 〕───⬣\n` + // 
+            `│ *Dᴀᴛᴇ:* ${date}\n` +
+            `│ *Tɪᴍᴇ:* ${time}\n` +
+            `│ *Uᴘᴛɪᴍᴇ:* ${days}d ${hours}h ${minutes}m ${seconds}s\n` +
+            `│ *Oᴡɴᴇʀ:* YOUR_OWNER_NAME_HERE\n` + // <<< IMPORTANT: Replace with your actual owner name
+            `│ *Rᴀᴍ:* ${(os.totalmem() - os.freemem()) / 1024 / 1024} MB / ${os.totalmem() / 1024 / 1024} MB\n` +
+            `│ *Pʟᴜɢɪɴs:* ${commands.length}\n` +
+            `│ *Usᴇʀ:* ${pushname}\n` +
+            `│ *Pʀᴇғɪx:* ${config.PREFIX}\n` +
+            `│ *Mᴏᴅᴇ:* ${config.MODE}\n` +
+            `╰──────────────\n`;
 
         for (const [category, title] of Object.entries(categories)) {
             if (menu[category]) {
@@ -104,10 +107,10 @@ ${menu[category]}╰───────────❍`;
             }
         }
 
-        madeMenu += "\n\n> *𝙼𝙰𝚁𝙸𝙰 𝙼𝙳| 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 *";
-        let kenu = tiny(madeMenu);
-        
-await conn.sendMessage(
+        madeMenu += "\n\n> *𝐌𝐔𝐋𝐀𝐀 𝐗𝐌𝐃 | 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌𝐔𝐋𝐀𝐀*"; // Updated branding at the bottom
+        let kenu = tiny(madeMenu); // Apply fancy font
+
+        await conn.sendMessage(
             from,
             {
                 text: kenu,
@@ -116,22 +119,22 @@ await conn.sendMessage(
                         forwardingScore: 9999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363420003990090@newsletter',
-                            newsletterName: '⏤͟͟͟͟͞͞͞͞𝙼𝙰𝙴𝙸𝙰-𝙼𝙳⏤'
+                            newsletterJid: '120363420003990090@newsletter', // You might want to keep this or change if you have a specific newsletter JID
+                            newsletterName: '⏤͟͟͟͟͞͞͞͞𝐌𝐔𝐋𝐀𝐀-𝐗𝐌𝐃⏤' // Replaced MARIA-MD with MULAA-XMD
                         },
                     externalAdReply: {
-                       showAdAttribution: false,
+                        showAdAttribution: false,
                         containsAutoReply: true,
-                        title: "✧ 𝙼𝙰𝚁𝙸𝙰 𝙼𝙳 - 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙿𝙰𝙽𝙴𝙻 ✧",
-                        body: "𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙰𝙱𝙱𝚈",
-                        thumbnailUrl: "https://files.catbox.moe/bt7a3x.jpeg",
-                        sourceUrl: "https://abby.com/abbybotz141/maria-md",
+                        title: "✧ 𝐌𝐔𝐋𝐀𝐀 𝐗𝐌𝐃 - 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐏𝐀𝐍𝐄𝐋 ✧", // Replaced MARIA MD with MULAA XMD
+                        body: "𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌𝐔𝐋𝐀𝐀", // Replaced Abby with MULAA
+                        thumbnailUrl: "YOUR_THUMBNAIL_IMAGE_URL_HERE", // <<< IMPORTANT: Replace with your bot's actual image URL
+                        sourceUrl: "YOUR_BOT_REPOSITORY_OR_WEBSITE_URL", // <<< IMPORTANT: Replace with your bot's GitHub repo or website URL
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
                 }
             },
-            { quoted: voltage }
+            { quoted: mullaXMDStatus } // 
         );
 
     } catch (e) {
@@ -140,4 +143,4 @@ await conn.sendMessage(
     }
 });
 
-/* Coded by Techbros*/
+/* Coded by MULAA XMD Team */ 
