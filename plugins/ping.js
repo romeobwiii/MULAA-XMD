@@ -23,7 +23,7 @@ const ping = async (m, Matrix) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `*JAWAD-MD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+    const text = `*MULAA-XMD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
     await Matrix.sendMessage(m.from, {
       text,
@@ -32,13 +32,24 @@ const ping = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363354023106228@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterJid: '120363399999197102@newsletter',
+          newsletterName: "MULAA-XMD",
           serverMessageId: 143
         }
       }
-    }, { quoted: m });
+    }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: "✆︎NנɐႦυℓσ נႦ verified",
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
   }
-};
 
 export default ping;
