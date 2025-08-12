@@ -65,7 +65,7 @@
     "OWNER_NUMBER": {
       "description": "set your owner number",
       "required": false,
-      "value": "26777821911"
+      "value": "+267 76 660 902"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
