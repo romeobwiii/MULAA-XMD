@@ -1,9 +1,9 @@
 {
-  "name": "JAWAD-MD",
-  "description": "I am JAWAD-MD WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
+  "name": "MULAA-XMD",
+  "description": "I am Njabulo Jb WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
   "logo": "https://files.catbox.moe/neni8p.jpg",
-  "keywords": ["JAWAD-MD"],
-  "repository": "https://github.com/JawadTechXD/JAWAD-MD",
+  "keywords": ["MULAA-XMD"],
+  "repository": "https://github.com/romeobwiii/MULAA-XMD",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -19,7 +19,7 @@
     "BOT_NAME": {
       "description": "change bot name what you want!",
       "required": false,
-      "value": "JAWAD-MD"
+      "value": "MULAA-XMD"
     },
     "MENU_IMAGE": {
       "description": "change menu image if want otherwise use default",
@@ -29,7 +29,7 @@
     "DESCRIPTION": {
       "description": "add caption for menu and etc",
       "required": false,
-      "value": "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX"
+      "value": "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ MULAA-XMD"
     },
     "ANTI_DELETE": {
       "description": "set path for antidelete for same chat set to same",
@@ -55,17 +55,17 @@
     "STATUS_READ_MSG": {
       "description": "set your status reply message",
       "required": false,
-      "value": "*Status Seen By JAWAD-MD 👻🤍*"
+      "value": "*Status Seen By MULAA-XMD👻🤍*"
     },
     "OWNER_NAME": {
       "description": "set owner name",
       "required": false,
-      "value": "JAWAD-MD"
+      "value": "MULAA-XMD"
     },
     "OWNER_NUMBER": {
       "description": "set your owner number",
       "required": false,
-      "value": "923427582273"
+      "value": "26777821911"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
