@@ -21,19 +21,38 @@ export default async function GroupParticipants(sock, { id, participants, action
                     const joinDate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
-               text: `> Hello @${userName}! Welcome to *${metadata.subject}*.\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}
-"`, contextInfo: {
+               text: `> Hello @${userName}! Welcome to *${metadata.subject}*.\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}"`,  
+               contextInfo: {
                   mentionedJid: [jid],
+                  isForwarded: true,
+                  forwardedNewsletterMessageInfo: {
+                  newsletterJid: '120363399999197102@newsletter',
+                  newsletterName: "MULAA-XMD",
+                  serverMessageId: 143,
+                  },
+                  forwardingScore: 999, // Score to indicate it has been forwarded
                   externalAdReply: {
-                     title: `Welcome`,
-                     mediaType: 1,
-                     previewType: 0,
-                     renderLargerThumbnail: true,
-                     thumbnailUrl: metadata.subject,
-                     sourceUrl: 'https://sid-bhai.vercel.app'
+                  title: "welcome",
+                  body: "welcome my friend thank you join family group",
+                  thumbnailUrl: profile, 
+                  sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+                  mediaType: 1,
+                  renderLargerThumbnail: true 
                   }
                }
-            })
+            }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: "Romen bw tech",
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
          } else if (action == "remove" && config.WELCOME ) {
            const userName = jid.split('@')[0];
                     const leaveTime = moment.tz('Asia/Kolkata').format('HH:mm:ss');
@@ -42,16 +61,36 @@ export default async function GroupParticipants(sock, { id, participants, action
             sock.sendMessage(id, {
                text: `> Goodbye @${userName} from ${metadata.subject}.\n> We are now ${membersCount} in the group.\n> Left at: ${leaveTime} on ${leaveDate}"`, contextInfo: {
                   mentionedJid: [jid],
+                  isForwarded: true,
+                  forwardedNewsletterMessageInfo: {
+                  newsletterJid: '120363345407274799@newsletter',
+                  newsletterName: "MULAA-XMD",
+                  serverMessageId: 143,
+                  },
+                  forwardingScore: 999, // Score to indicate it has been forwarded
                   externalAdReply: {
-                     title: `Leave`,
-                     mediaType: 1,
-                     previewType: 0,
-                     renderLargerThumbnail: true,
-                     thumbnailUrl: profile,
-                     sourceUrl: 'https://sid-bhai.vercel.app'
+                  title: "leave",
+                  body: "Goodbye will gona miss you🤬",
+                  thumbnailUrl: profile,
+                  sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+                  mediaType: 1,
+                  renderLargerThumbnail: true 
+                  
                   }
                }
-            })
+            }, { quoted: {
+            key: {
+                fromMe: false,
+                participant: `0@s.whatsapp.net`,
+                remoteJid: "status@broadcast"
+            },
+            message: {
+                contactMessage: {
+                    displayName: "Romen bw tech",
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:Njabulo-Jb;BOT;;;\nFN:Njabulo-Jb\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                }
+            }
+        } });
          }
       }
    } catch (e) {
