@@ -92,6 +92,12 @@
       "required": false,
       "value": "false"
     },
+    
+    "WELCOME": {
+      "description": "make it true if want goodbye and welcome message in groups.",
+      "required": true,
+      "value": "true"
+    },
     "REJECT_CALL": {
       "description": "make it true if you want to reject call",
       "required": false,
