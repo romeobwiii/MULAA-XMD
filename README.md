@@ -1,26 +1,14 @@
 
 
-> **Current Bot Version `5.0.0`**  
-
----
-
-*Dont forget to fork & star repo ⭐*
-
----
-
-<div align="center">
-  <img src="https://files.catbox.moe/vz20kf.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
-</div>
-
 <div align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" width="400" style="border-radius: 20px; box-shadow: 0 0 25px #0088ff;"/>
 </div>
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/divider.gif?raw=true" width="100%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/divider.gif?raw=true" width="100%"/>
 </div>
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
 </div>
 
 ## 🛰️ Deployment Steps
@@ -29,7 +17,7 @@
     
 <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 3px solid #ff00ff;">
   <p style="color: #00ffff;">First star & Fork repo using button Below !</p>
-  <a href='https://github.com/JawadTechXD/JAWAD-MD/fork' target="_blank">
+  <a href='https://github.com/romeobwiii/MULAA-XMD/fork' target="_blank">
     <img src='https://img.shields.io/badge/FORK_REPOSITORY-008000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
   </a>
 </div>
@@ -42,20 +30,16 @@
   
 --- 
 > **PAIRING LINK (01)**
-  <a href='https://jawadxd.onrender.com/' target="_blank">
+  <a href='https://njabul9.on.com/' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
   
   <div style="height: 10px;"></div>
-  
-> **PAIRiNG LINK (02)**
-  <a href='https://khanxd.onrender.com/' target="_blank">
-    <img src='https://img.shields.io/badge/PAIR_CODE_2-FF00FF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
-  </a>
+
   
   ---
   <p style="color: #aaaaaa; font-size: 12px; margin-top: 10px;">
-    <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/warning.gif?raw=true" width="15"/> 
+    <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/warning.gif?raw=true" width="15"/> 
     Connection issues may require VPN activation
   </p>
 </div>
@@ -63,7 +47,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 
 ## 📡 DEPLOYMENT OPTIONS
@@ -71,11 +55,11 @@
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/JawadTechXD/JAWAD-MD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/romeobwiii/MULAA-XMD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
       <td><a href="https://talkdrove.com" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=JawadTechXD/JAWAD-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=NjabuloJ/Njabulo-Jb" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
@@ -88,7 +72,7 @@
 <table align="center">
   <tr>
     <td>
-      <a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j/1368" target="_blank">
+      <a href="https://whatsapp.com/channel/0029Vat2EAzNc2WcShQw1j/1368" target="_blank">
         <img alt="View Workflow Codes" src="https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white"/>
       </a>
     </td>
@@ -96,7 +80,7 @@
 </table>  
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
 </div>
 
 ## 🌟 BOT FEATURES
@@ -110,19 +94,19 @@
 ```
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
 </div>
 
 ## 🪀  SUPPORT CHANNEL
 
 <div align="center">
-  <a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j">
+  <a href="https://whatsapp.com/channel/0029VatOyAzNc2WcShQw1j">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/neonpulse.gif?raw=true" width="300"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/neonpulse.gif?raw=true" width="300"/>
 </div>
 
 ## ⚠️ WARNING !
@@ -133,7 +117,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
 </div>
 
 ## 🗃️ PROJECT ARCHITECTS
@@ -144,10 +128,10 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
 </div>
 
-## 👑 JAWAD STATUS
+## 👑 ROMEN BW STATUS
 
 ```diff
 + Project Status: Active
@@ -156,5 +140,5 @@
 ```
 
 <div align="center">
-  <img src="https://github.com/JawadTechXD/JAWAD-MD/blob/main/assets/endwave.gif?raw=true" width="100%"/>
+  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/endwave.gif?raw=true" width="100%"/>
 </div>
