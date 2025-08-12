@@ -24,8 +24,8 @@ const alive = async (m, Matrix) => {
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363399999197102@newsletter',
-        newsletterName: "Romen bw",
+        newsletterJid: '120363354023106228@newsletter',
+        newsletterName: "JawadTechX",
         serverMessageId: 143
       }
     }
@@ -35,4 +35,3 @@ const alive = async (m, Matrix) => {
 };
 
 export default alive;
-    
