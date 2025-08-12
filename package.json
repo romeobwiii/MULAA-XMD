@@ -1,7 +1,7 @@
 {
-  "name": "JAWAD-MD",
+  "name": "MULAA-XMD",
   "version": "10.8.1",
-  "description": "JAWAD-XMD latest multi device whatsapp bot",
+  "description": "MULAA-XMD latest multi device whatsapp bot",
   "main": "index.js",
   "engines": {
   "node": ">=20.x",
@@ -9,12 +9,12 @@
   },
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name JAWAD-XMD",
-    "stop": "pm2 stop JAWAD-XMD",
-    "restart": "pm2 restart JAWAD-XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name MULAA-XMD",
+    "stop": "pm2 stop MULAA-XMD",
+    "restart": "pm2 restart MULAA-XMD"
   },
-  "keywords": ["jawad-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "JawadTechX",
+  "keywords": ["MULAA-XMD", "whatsapp-bot", "whatsapp md bot"],
+  "author": "Njabulo J",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "github:EdderBot02/bail",
