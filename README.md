@@ -1,4 +1,13 @@
 
+*MULAA-XMD WhatsApp Bot*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=MULAA%20XMD%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling" width="100%"/>
+<img src="https://files.catbox.moe/kgsd4q.jpeg" alt="MULAA-XMD WhatsApp Bot" width="100%" />
+
+*📌 About*
+MULAA-XMD is a powerful *multi-device WhatsApp bot*, designed for *automation, efficiency, and customization*. Built to provide *seamless interaction* within WhatsApp groups and chats! 💡🚀
+
+---
 
 <div align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" width="400" style="border-radius: 20px; box-shadow: 0 0 25px #0088ff;"/>
