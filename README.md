@@ -129,18 +129,18 @@ MULAA-XMD is a powerful *multi-device WhatsApp bot*, designed for *automation, e
   <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
 </div>
 
-## 🗃️ PROJECT ARCHITECTS
-<div align="center">
-  <a href="https://github.com/JawadTechXD">
-    <img src="https://github-readme-stats.vercel.app/api?username=JawadTechXD&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
-  </a>
-</div>
+## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github.com/romeobwiii/MULAA-XMD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=romeobwiii&theme=radical&hide_border=false&include_all_commits=true&count_private=true"/>
+  <br/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=romeobwiii&theme=radical&hide_border=false"/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=romeobwiii&theme=radical&hide_border=false&layout=compact"/>
+</p>
 
-## 👑 ROMEN BW STATUS
+
+## MULAA XMD STATUS
 
 ```diff
 + Project Status: Active
